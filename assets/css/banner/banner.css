@@ -3,21 +3,3 @@
     height: calc(100vh -75px); /* view port hate  -   Tamanho da janela do navegador*/ 
     position: relative;
 }
-
-.banner__imagem {
-    width: 100%;
-}
-
-.banner__titulo {
-    color: #FDFDFD;
-    font-family: Pacifico, cursivo;
-    font-size: 5.0625rem;
-    position: absolute; /* posição absoluta ao nó pai quando o mesmo está com posição relativa*/
-    left: 50%;
-    text-shadow: 0 4px 4px rgba(0, 0, 0.75); /* text-shadow:  deslocamento X sombra, deslocamento Y sombra, borrão */
-    top: 50%;
-    text-align: center;
-    transform: translate(-50%, -50%);   /* translate(Eixo X, Eixo Y)*/
-    width: 100%;
- 
-}
